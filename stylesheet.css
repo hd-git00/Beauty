@@ -1,0 +1,152 @@
+.fadeIn {
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.fadeIn.animated {
+  opacity: 1;
+}
+
+.nv-ttl {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #13365e;
+  display: none;
+}
+
+.nv-ttl-001 {
+  font-size: 20px;
+  color: #ebebeb;
+  padding: 20px 30px;
+  width: 60%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nv-ttl-002 {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nv-ttl-002-001 {
+  color: #ebebeb;
+  float: right;
+  width: 33%;
+  height: 50%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.nv-ttl-002-002 {
+  color: #ebebeb;
+  float: right;
+  width: 33%;
+  height: 50%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#tp {
+  width: 100%;
+  height: 1200px;
+  display: block;
+  background-image: url(img/1.png);
+  background-size: cover;
+}
+
+#tp-bx-ttl-001 {
+  text-align: center;
+  font-size: 130px;
+  color: white;
+  opacity: 0.7;
+  padding-top: 650px;
+  font-weight: bold;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+}
+
+#tp-bx-tx-001 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  opacity: 0.7;
+  padding-top: 100px;
+  -webkit-transform: scaleY(0.1);
+          transform: scaleY(0.1);
+}
+
+.ab {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 850px;
+  display: block;
+}
+
+.ab-img-002 {
+  width: 500px;
+  height: 850px;
+  margin: 0 15%;
+  display: inline-block;
+  background-image: url(img/2.png);
+  opacity: 0.5;
+  -webkit-transform: skewX(-25deg);
+          transform: skewX(-25deg);
+  position: absolute;
+}
+
+.ab-img-001 {
+  width: 350px;
+  height: 800px;
+  margin: 50px 10%;
+  display: inline-block;
+  background-color: #556161;
+  opacity: 0.5;
+  -webkit-transform: skewX(-5deg);
+          transform: skewX(-5deg);
+  position: absolute;
+}
+
+.ab-tx-001 {
+  display: inline-block;
+  position: absolute;
+  padding-left: 45%;
+  margin-top: 350px;
+  font-size: 25px;
+  -webkit-transform: scaleY(0.9);
+          transform: scaleY(0.9);
+}
+
+.ab-ttl-001 {
+  color: white;
+  display: inline-block;
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 15%;
+  opacity: 1;
+}
+
+.ab-ttl-001 a {
+  background-color: #31363a;
+  padding: 33px 150px 33px 150px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.bg1 {
+  background-image: url(img/3.png);
+  background-size: 100% 600px;
+  height: 600px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
